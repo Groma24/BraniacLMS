@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 from django.views.generic import TemplateView
 
 
@@ -33,3 +34,8 @@ class DocSitePageView(TemplateView):
 
 class LoginPageView(TemplateView):
     template_name = "mainapp/login.html"
+=======
+from django.shortcuts import render
+
+# Create your views here.
+>>>>>>> 6203efc (Preconfig)
